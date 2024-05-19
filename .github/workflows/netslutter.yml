@@ -12,7 +12,7 @@ jobs:
     - name: Download Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/netslutter/netslutter-RDP/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/DeveloperRamos/NetSlutter/blob/4dd600ae32041b8d06f38627bf6cd2d43913fa66/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/netslutter/netslutter-RDP/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/netslutter/netslutter-RDP/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/netslutter/netslutter-RDP/main/loop.bat -OutFile loop.bat
